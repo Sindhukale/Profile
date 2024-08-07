@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sindhu Kale's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sindhu Kale</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <!-- <li><a href="#experience">Experience</a></li> -->
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sindhu Kale</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <!-- <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> -->
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </jdiv>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.png" alt="Sindhu Kale profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sindhu Kale</h1>
+        <p class="section__text__p2">Under Gradaute Student Majoring Computer Science</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume-hackerresume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="window.open('https://www.linkedin.com/in/kale-sindhu-a2a546267/', '_blank')">
+
+
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="window.open('https://github.com/Sindhukale', '_blank')">
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelors in Computer Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hey there! I'm Yukesh Raghavan, a passionate computer engineer with a knack for crafting innovative solutions. My journey started at SRM Institute of Science and Technology, where I honed my skills in everything from data structures and algorithms to iOS development.
+              Then, at Stony Brook University, I delved deeper into the world of computer engineering, mastering concepts like ML and AI, distributed systems, and mobile cloud computing. 
+              I thrive on challenges and have hands-on experience in creating impactful projects, from spearheading the development of an E-commerce platform to developing Android Application. 
+              Let's collaborate and bring ideas to life!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+      <section id="education">
+        <div class="title">Education</div>
+        <div class="education-entry">
+          <img src="./assets/rise-logo.png" alt="Rise Krishna Sai Logo" class="education-logo" />
+          <h2>Rise Krishna Sai Prakasam Group Of Institutions</h2>
+          <p class="education-degree">Bachlores in Computer Science</p>
+          <p class="education-date">November 2021 – April 2025(expected)</p>
+          <p class="education-gpa">GPA: 8.75/10.0</p>
+          <p class="education-coursework">Coursework:</p>
+          <ul>C, Python, Data Structures Theory, Machine Learning, Data Mining, Data WareHouse, DBMS.</ul>
+          
+      </div>
+      <div class="education-entry">
+        <img src="./assets/Chaitanya_logo.jpg" alt="Chaitnaya Logo" class="education-logo" />
+        <div class="education-text">
+            <h2>Sri Chaitnaya Junior College</h2>
+            <p class="education-degree">Class 12th</p>
+            <p class="education-date">June 2019 – June 2021</p>
+            <p class="education-gpa">Percentage: 94.6%</p>
+            <p class="education-coursework">Coursework:</p>
+            <!-- List of coursework could be added here if needed -->
+            <ul>Mathematics, Physics, Chemistry.</ul>
+        </div>
+    </div>
+    
+          
+      </div>
+      
+             
+    </section>
+    
+
+    <!-- <section id="experience" class="experience-section">
+      <div class="title">Experience</div>
+      <div class="experience-content">
+          <div class="experience-skills"> -->
+              <!-- Skill details if any -->
+          <!-- </div> -->
+          <!-- <ul class="experience-history"> -->
+              <!-- Stony Brook University -->
+              <!-- <li class="history-item">
+                  <img src="./assets/sbulogo.png" alt="Organisation Logo" class="organisation-logo" />
+                  <div class="history-item-details">
+                      <h3>Graduate Teaching Assistant, Stony Brook University</h3>
+                      <p>August 2023 - December 2023</p>
+                      <ul>
+                          <li>Mentored 50+ undergraduate students on concepts of data structures and algorithms and object-oriented programming with C++ and Java.</li>
+                          <li>Streamlined student project development by conducting rigorous code reviews, resulting in a notable improvement in
+                            code quality and a 10-hour reduction in debugging time post-submission.</li>
+                      </ul>
+                  </div>
+              </li> -->
+              <!-- Learnovate Ecommerce -->
+              <!-- <li class="history-item">
+                  <img src="./assets/le.jpeg" alt="Organisation Logo" class="organisation-logo" />
+                  <div class="history-item-details">
+                      <h3>Software Developer Intern, Learnovate Ecommerce</h3>
+                      <p>August 2021 - January 2022</p>
+                      <ul>
+                          <li>Developed a high-traffic e-commerce platform for a startup, leveraging Java, Spring Boot for backend and optimized React for frontend, attracting 10,000+ users in six months.</li>
+                          <li>Architected and optimized API endpoints using Spring Boot, enhancing system throughput from 1,000 to 1,400
+                            requests per second, boosting performance and user interaction quality.</li>
+                            <li>Engineered responsive UI forms with React, Material-UI, and Tailwind CSS, achieving a 23% boost in user engagement.
+                              </li>
+                              <li>Elevated website performance by cutting initial load time by 80 milliseconds through image optimization, reduced HTTP
+                                requests, and asynchronous loading in Next.js.</li>
+                      </ul>
+                  </div>
+              </li> -->
+              <!-- SmartKnower Pvt Ltd -->
+              <!-- <li class="history-item">
+                  <img src="./assets/smart.jpeg" alt="Organisation Logo" class="organisation-logo" />
+                  <div class="history-item-details">
+                      <h3>IT/Tech Support, SmartKnower Pvt Ltd</h3>
+                      <p>March 2022 - May 2022</p>
+                      <ul>
+                          <li>Delivered expert technical support for IoT devices, boosting reliability and customer satisfaction through effective troubleshooting and communication.</li>
+                          <li>Managed weekly technical support for over 50 clients, resolving issues across multiple channels including in-person, phone, and chat, enhancing customer trust and service continuity.</li>
+                      </ul>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </section> -->
+  
+      
+      </section>
+
+    
+      
+      
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/lambda.jpeg" alt="Job Seek Project Image" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Job Clues:Job search Portal</h2>
+            <p>I developed a high-converting landing page for a job-seeking platform that effectively promotes its features and benefits. 
+              The page includes advanced search filters, allowing users to find jobs based on location, industry, and experience level. 
+              It also enables companies to create profiles, post job openings, and review applications. 
+              Ensuring a fully responsive design, the platform is optimized for various devices, providing a seamless user experience. 
+              By staying updated with the latest trends in web development and job search technologies, the landing page aims to drive user engagement and conversions, making the job-hunting process efficient and effective for both job seekers and employers. </p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sindhukale/Jobclues'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://sindhukale.github.io/Jobclues/'">Live Website</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/tetrix.webp" alt="Tetris Project Image" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Tetris Game: Fun and Simple</h2>
+            <p> I spearheaded the development of a classic Tetris game, meticulously implementing traditional mechanics where players arrange falling tetrominoes to complete rows. 
+              A robust scoring system was developed to reward players for row completions and high scores, enhancing the competitive aspect of the game. 
+              To keep players engaged, multiple levels with escalating difficulty were designed, providing a continuous challenge. 
+              The integration of sound effects and background music significantly enriched the gaming experience, while smooth and responsive controls ensured an enjoyable and seamless gameplay experience.
+              This project exemplifies a balanced blend of nostalgic gameplay and modern enhancements, delivering an engaging and rewarding experience for players..</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sindhukale/Tetris'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://sindhukale.github.io/Tetris/'">Live Game</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/2048_logo.svg.png" alt="2048 Project Image" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">2048 Game: Fun and Logical</h2>
+            <p>I developed an engaging and immersive sliding block puzzle game, showcasing my skills in game design, programming, and creative storytelling. 
+              The game is reminiscent of classics like Threes! and 2048, and incorporates elements from the traditional Klotski puzzle. 
+              Played on a grid similar to Sudoku, the game challenges players to strategically slide blocks to achieve specific goals. 
+              This project not only highlights my technical expertise in creating a smooth and responsive gameplay experience but also reflects my ability to weave creative storytelling into the game design, 
+              making it both intellectually stimulating and entertaining for players.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sindhukale/2048-Game'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://sindhukale.github.io/2048-Game/'">Live Game</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/flight.jpg" alt="flight App" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Airt Travel Booking</h2>
+            <p> Crafting material that resonates with travelers involves more than just showcasing destinations; 
+              it is about building trust and loyalty. A well-thought-out content strategy for an airline business should aim to inform, 
+              engage, and inspire passengers at every step of their journey. As a major form of mass travel, 
+              airlines play a crucial role in the world's transportation network, encompassing people, airplanes, equipment, and buildings to transport passengers, 
+              freight, and mail by air. Economically and socially significant, air travel is the fastest and most expensive mode of transport, capable of reaching remote and distant areas where roads and railways are unavailable. 
+              Key airports, such as Delhi, serve as important hubs in this network.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sindhukale/Airlines'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://sindhukale.github.io/Airlines/'">Live Website</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/caluclator.png" alt="Calculator Website" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Calculator</h2>
+            <p> In this website we will having all the product showcase of calculators we will use in our daily life and in this website you will be having a buying option of the particular calculator</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sindhukale/PRODUCTS'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://sindhukale.github.io/PRODUCTS/'">Live Demo</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/files.jpg" alt="Materials Image" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Materials</h2>
+            <p> This is the website which will be providing the basic fsd materials on clicking on the subject picture you will be navigating to the particular material website</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sindhukale/materials'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://sindhukale.github.io/materials/'">Live Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:raghavanyukesh@gmail.com">kale.sindhu22@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+          onclick="window.open('https://www.linkedin.com/in/kale-sindhu-a2a546267/', '_blank')"
+        />
+        <p><a href="https://www.linkedin.com/in/kale-sindhu-a2a546267/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href='#education'>Education</a></li>
+            <!-- <li><a href="#experience">Experience</a></li> -->
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p></p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
